@@ -40,6 +40,7 @@ See:
 - [`docs/01-principles.md`](docs/01-principles.md) — engineering principles.
 - [`docs/02-delivery-and-evidence.md`](docs/02-delivery-and-evidence.md) — delivery, testing, evidence, and operational safety.
 - [`docs/03-ai-assisted-development.md`](docs/03-ai-assisted-development.md) — AI-native development baseline.
+- [`docs/04-project-maturity-and-capabilities.md`](docs/04-project-maturity-and-capabilities.md) — risk-scaled capabilities from Prototype / PoC through long-lived production.
 - [`examples/anonymized-practice-patterns.md`](examples/anonymized-practice-patterns.md) — sanitized real-world examples showing how the principles were applied.
 - [`templates/PROJECT_BOOTSTRAP_CHECKLIST.md`](templates/PROJECT_BOOTSTRAP_CHECKLIST.md) — minimum project bootstrap checklist.
 
