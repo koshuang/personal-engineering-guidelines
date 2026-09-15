@@ -21,7 +21,7 @@ Read context in this order:
 3. Current Issue / roadmap / specification / ADR / runbook.
 4. Current code, tests, CI, and runtime evidence.
 
-The more specific source wins when it intentionally differs from this baseline.
+The more specific source wins when it intentionally differs from this baseline. Project-local context may reduce ceremony, but it should not silently weaken a safety or evidence boundary whose underlying risk still exists.
 
 ## Canonical responsibility split
 
@@ -41,6 +41,9 @@ See:
 - [`docs/02-delivery-and-evidence.md`](docs/02-delivery-and-evidence.md) — delivery, testing, evidence, and operational safety.
 - [`docs/03-ai-assisted-development.md`](docs/03-ai-assisted-development.md) — AI-native development baseline.
 - [`docs/04-project-maturity-and-capabilities.md`](docs/04-project-maturity-and-capabilities.md) — risk-scaled capabilities from Prototype / PoC through long-lived production.
+- [`docs/05-technology-decisions.md`](docs/05-technology-decisions.md) — capability-first technology selection and migration decisions.
+- [`docs/06-observability-and-alerting.md`](docs/06-observability-and-alerting.md) — observability, deterministic alerting, noise control, and monitor-the-monitoring.
+- [`docs/07-context-and-rule-inheritance.md`](docs/07-context-and-rule-inheritance.md) — canonical routing, local overrides, durable handoff, and rule-drift control.
 - [`examples/anonymized-practice-patterns.md`](examples/anonymized-practice-patterns.md) — sanitized real-world examples showing how the principles were applied.
 - [`templates/PROJECT_BOOTSTRAP_CHECKLIST.md`](templates/PROJECT_BOOTSTRAP_CHECKLIST.md) — minimum project bootstrap checklist.
 
