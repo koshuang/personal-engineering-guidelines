@@ -44,8 +44,11 @@ See:
 - [`docs/05-technology-decisions.md`](docs/05-technology-decisions.md) — capability-first technology selection and migration decisions.
 - [`docs/06-observability-and-alerting.md`](docs/06-observability-and-alerting.md) — observability, deterministic alerting, noise control, and monitor-the-monitoring.
 - [`docs/07-context-and-rule-inheritance.md`](docs/07-context-and-rule-inheritance.md) — canonical routing, local overrides, durable handoff, and rule-drift control.
+- [`docs/08-guideline-evolution.md`](docs/08-guideline-evolution.md) — promotion, demotion, retirement, and evidence-driven evolution of the baseline.
 - [`examples/anonymized-practice-patterns.md`](examples/anonymized-practice-patterns.md) — sanitized real-world examples showing how the principles were applied.
 - [`templates/PROJECT_BOOTSTRAP_CHECKLIST.md`](templates/PROJECT_BOOTSTRAP_CHECKLIST.md) — minimum project bootstrap checklist.
+- [`templates/PROJECT_PROFILE.md`](templates/PROJECT_PROFILE.md) — lightweight maturity/risk/capability profile for routing a project.
+- [`templates/EVIDENCE_CHECKLIST.md`](templates/EVIDENCE_CHECKLIST.md) — claim-to-evidence checklist before declaring material work complete.
 
 ## Evidence
 
