@@ -2,7 +2,7 @@
 
 A practical, evolving engineering baseline for Kos's personal software projects.
 
-> These guidelines are distilled from repeated patterns observed across active personal projects. They are a reference, not a constraint: prioritize the personal or product outcome, learning velocity, and delivery; use engineering to make experiments safer, more repeatable, and easier for humans and agents to continue; keep improving the system as evidence accumulates.
+> These guidelines are distilled from repeated patterns observed across active personal projects and engineering work I materially contributed to. They are a reference, not a constraint: prioritize the personal or product outcome, learning velocity, and delivery; use engineering to make experiments safer, more repeatable, and easier for humans and agents to continue; keep improving the system as evidence accumulates.
 
 ## Core principle
 
@@ -40,11 +40,14 @@ See:
 - [`docs/01-principles.md`](docs/01-principles.md) — engineering principles.
 - [`docs/02-delivery-and-evidence.md`](docs/02-delivery-and-evidence.md) — delivery, testing, evidence, and operational safety.
 - [`docs/03-ai-assisted-development.md`](docs/03-ai-assisted-development.md) — AI-native development baseline.
+- [`examples/anonymized-practice-patterns.md`](examples/anonymized-practice-patterns.md) — sanitized real-world examples showing how the principles were applied.
 - [`templates/PROJECT_BOOTSTRAP_CHECKLIST.md`](templates/PROJECT_BOOTSTRAP_CHECKLIST.md) — minimum project bootstrap checklist.
 
 ## Evidence
 
-The raw cross-repository survey, private repository mappings, and sensitive implementation evidence live in a separate private repository. Public guidelines should contain only principles, sanitized examples, and reusable methods.
+The raw cross-repository survey, private repository mappings, professional-project attribution, and sensitive implementation evidence live in a separate private repository. Public guidelines contain only principles, sanitized examples, and reusable methods.
+
+Professional examples are included only when I materially contributed to the engineering work; otherwise they remain private observed evidence rather than personal accomplishment claims.
 
 ## Status
 
