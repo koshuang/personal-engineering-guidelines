@@ -1,6 +1,22 @@
 # Project Profile
 
-Use this at project bootstrap or when a project changes maturity. Keep it short; it is a routing aid, not ceremony.
+Use this only when it materially improves routing. Typical triggers are project bootstrap, a maturity/risk change, a new deployment/runtime boundary, or repeated confusion about which capabilities/evidence the project actually requires.
+
+Do **not** add or keep this file merely for consistency. If the existing README / `AGENTS.md` / roadmap / runbooks already make the maturity, risk, canonical sources, and required evidence unambiguous, this profile may be unnecessary.
+
+Keep it short; it is a routing aid, not ceremony and not a second copy of repository policy.
+
+## Adoption gate
+
+Create or update this profile when at least one of these is true:
+
+- project maturity has changed (for example PoC → MVP, MVP → Pilot, Pilot → Production);
+- blast radius, persistent data, credentials, money, external side effects, recurring cost, or operational ownership materially changed;
+- agents or humans repeatedly choose the wrong verification, delivery, or safety level;
+- canonical-source precedence is unclear across shared and repo-local rules;
+- the project needs an explicit local strengthening/narrowing of the shared baseline.
+
+Prefer no profile when none of those conditions exists.
 
 ## Outcome
 
@@ -56,3 +72,7 @@ Record only meaningful deviations from the shared baseline.
 ## Next maturity trigger
 
 What real-world condition would justify adding the next layer of engineering capability?
+
+## Removal trigger
+
+Remove or fold this profile back into existing repo documentation if it becomes stale, duplicates stronger canonical sources, is rarely consulted, or no longer changes engineering decisions.
